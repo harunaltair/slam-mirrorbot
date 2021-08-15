@@ -1,3 +1,5 @@
+export MAX_DOWNLOAD_SPEED=0
+export MAX_CONCURRENT_DOWNLOADS=3
 aria2c --enable-rpc --check-certificate=false \
    --max-connection-per-server=10 --rpc-max-request-size=1024M \
    --bt-stop-timeout=1200 --min-split-size=10M --follow-torrent=mem --split=10 \
